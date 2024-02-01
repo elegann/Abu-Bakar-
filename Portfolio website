@@ -49,6 +49,53 @@
         <input placeholder="Enter your password" type="password">
       </div>
         </center>
-    </div>
-</body>
-</html>
+
+CSS CODES
+
+    
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Kanit:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Kanit', sans-serif;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+.Box{
+    height: 10%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.Box1{
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+}
+.Box2{
+    height: 10%;
+    width: 100%;
+    background-color: bisque;
+}
+.Box3{
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+}
+.Box4{
+    height: 10%;
+    width: 100%;
+    background-color: bisque;
+}
+.Box5{
+    height: 7%;
+    width: 100%;
+    background-color: bisque;
+}
+.Box6{
+    height: 50%;
+    width: 100%;
+    background-color: bisque;
+}
