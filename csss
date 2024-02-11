@@ -1,0 +1,65 @@
+const Page = () => {
+  return <section><div><nav>
+  <ul className="menu-bar">
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/">About</a>
+    </li>
+  <div><li className="Boxes">
+      <a href="/">Code</a>
+    </li>
+    </div>
+    <li>
+      <a href="/">Project</a>
+    </li>
+  </ul>
+</nav>
+</div>
+<div className="Box1">
+  <img src="https://yt3.googleusercontent.com/kBxhXwRoPMCk5Hq-CVCteUMMGgkixrSPkod-L2vQqL3s2jCs7HxS0cc53Rj9rafJA47vkOcW=s176-c-k-c0x00ffffff-no-rj" alt="" />
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<div className="Box2">
+  <h1>Welcome To Our Website</h1>
+</div>
+<div className="Box4">
+  <p>🚀 Welcome to TECH ABZ! 🖥️
+
+Hey there, tech enthusiasts! I'm Abu Bakar, your guide in the world of coding and technology. 👨‍💻 On this channel, we embark on a journey of discovery, unraveling the fascinating realms of coding and programming.
+
+🌐 About Me:
+I'm Abu Bakar, passionate about all things tech and coding. As a dedicated educator, I bring you easy-to-follow tutorials, coding challenges, and insights into the ever-evolving tech landscape. Whether you're a beginner or an experienced developer, there's always something new to learn.
+
+👨‍🏫 What to Expect:
+🖱️ Coding Tutorials: Dive into the world of programming with step-by-step coding tutorials. From the basics to advanced concepts, we cover it all.
+🌐 Tech Talks: Stay updated with the latest in the tech industry. Discussions, reviews, and insights to keep you in the loop.
+💻 Live Coding Sessions: Join me live as we tackle coding challenges together. Ask questions, share your ideas, and let's code collaboratively!
+
+🔗 Connect with TECH ABZ:
+📸 Instagram: @TechABZ
+🐦 Twitter: @TechABZOfficial
+🌐 Website: techabz.com
+
+🤝 Join the TECH ABZ Community:
+Become a part of our growing community! Subscribe, hit the bell icon, and let's explore the exciting world of coding and tech together. Don't forget to share your thoughts and suggestions in the comments - your feedback fuels this coding adventure!
+
+🚀 Tech Enthusiast | Coding Explorer | Your Guide in the Digital World
+
+</p>
+</div>
+<center><div className="box5"> <h1>My You Tube channel Link</h1> </div></center>
+<center><div className="Box6"><p><a target="blank" href="https://www.youtube.com/@TechAbz0">Tech ABZ</a></p></div></center>
+<center><div className="Box7"><h1>My Informaition</h1></div></center>
+<center><div className="Box8"><p>📚 Currently, my educational adventure at Techno Kids is shaping my foundation, and I am eager to explore more facets of technology. Every challenge is an opportunity, and I am ready to embrace the future with enthusiasm and a determination to make a mark in the tech world! 🔍✨</p></div></center>
+<center><div className="Box9"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus sapiente incidunt, ut ipsa perferendis natus ex numquam quidem inventore animi autem, est voluptates, optio iure nisi. Voluptates voluptatem impedit sed.</p></div></center>
+<center><div className="Box10"><h1>Gallery</h1></div></center>
+<center><div className="Box11"><img src="https://i9.ytimg.com/vi/6RF2krDejC8/mqdefault.jpg?v=65c75916&sqp=CNDzoa4G&rs=AOn4CLB5hfdQg5kyRk4AW08uWor7lzAIKg" alt="" /></div></center>
+</section>
+}
+export default Page
