@@ -1,0 +1,137 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="abubakar-icon" href="Hubbing.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubbing Nubbing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <nav>
+            <li>
+                <a href="#">Home</a>
+                <a href="/about.html">About</a>
+                <a href="#">Work</a>
+                <a href="/service.html">Service</a>
+            </li>
+        </nav>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="img">
+        <img src="https://www.hubb.com/image/globe-img2.png" alt="">
+    </div>
+    <br>
+<br>
+<center>
+    <div class="heading">
+        <h1 style="color: white;">Welcome To <br> Hubbing  Nubbing</h1>
+    </div>
+    <br>
+    <div class="para">
+        <p>Welcome to Hubbing Nubbing, where excellence meets innovation! We pride ourselves as a dynamic and client-centric service hub committed to providing unparalleled solutions tailored to meet your diverse needs.</p>
+    </div>
+    <br>
+    <div class="abubakar">
+ <button> <a href="/service.html"></a> Order Now </button>
+    </div>
+</center>
+</body>
+</html>
+css:
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+  font-family: "Outfit";  
+  background-color: #00008B;
+}
+.nav{
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+.nav a{
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    display: inline-block;
+}
+.nav a:hover{
+    background-color: blue;
+}
+.heading{
+    font-size: 40px;
+    color: white;
+}
+.img img{
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+.para{
+    font-size: 20px;
+    color: white;
+}
+.abubakar button{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+.abubakar button:hover{
+background-color: black;
+}
+.img2 img{
+    height: 100%;
+    width: 100%;
+}
+service.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+    <div class="cantact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="cantact-left">
+            <div class="cantact-left-title">
+                <h2>Contact Me</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="3e853f8b-41b3-4feb-a2a7-795011710444">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="Messege" placeholder="Your Messege" class="contact-inputs" required ></textarea>
+            <button type="submit">Submit <img src="ABZ" alt=""></button>
+          <div class="Box"><BUTTON><a target="_blank" href="index.html">Hub With Nub</a> </BUTTON> required</div>  
+         </div>
+        </form>
+    </div>
+    <div class="right-container">
+        <img src="ABZ/download.jpg" alt="">
+    </div>
+</body>
+</html>
+service.css
